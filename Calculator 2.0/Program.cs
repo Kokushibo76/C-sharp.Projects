@@ -5,7 +5,7 @@ Console.WriteLine("4)Деление    9)Выйти из программы");
 Console.WriteLine("5)Возведение в степень");
 M:
 Console.WriteLine("Выберите действие: ");
-int func = Convert.ToInt32(Console.Read());
+int func = Convert.ToInt32(Console.ReadLine());
 int x, y, z, fact = 1, b;
 double d;
 float f, g;
